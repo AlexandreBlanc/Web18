@@ -1,5 +1,8 @@
 <?php
 
 $version = 7;
-$message = 'Je fais du PHP' . s$version;
+$message = '<h1>Je fais du PHP' . $version . '</h1>'
 echo $message;
+
+// Utilisation
+define('TVATxPlein', 0.2);
